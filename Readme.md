@@ -2,8 +2,10 @@
 
 使用方法：
 
-进入后npm init -y产生package.json
-然后安装依赖：
-npm install terser-webpack-plugin webpack webpack-cli webpack-dev-server html-webpack-plugin html-inline-script-webpack-plugin prettier  --save-dev
-测试:npm run dev
-打包：npx webpack --mode production或者npm run build
+1、拉取代码：git clone https://github.com/aceip/toHtml.git
+
+2、安装包：npm i 或者 cnpm i
+
+3、打包：npm run build
+
+4、运行测试：npm run dev
