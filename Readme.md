@@ -17,3 +17,8 @@
 6、Echarts文档：
 https://echarts.apache.org/zh/option.html#xAxis.type
 https://echarts.apache.org/examples/zh/index.html#chart-type-funnel
+
+8、界面展示：
+
+![](E:\Desktop\toHtml\image\Video_2024-05-09_170313 00_00_00-00_00_30.gif)
+
