@@ -27,6 +27,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './index.html',
       inject: 'body',
+      publicPath: false,
 	    // minify: false, //取消输出一行，直接嵌入所有格式显示
       minify: {
         collapseWhitespace: false, // 禁止压缩空白字符
@@ -46,5 +47,11 @@ module.exports = {
     host: '0.0.0.0', // 设置主机，'0.0.0.0' 表示监听所有可用的网络接口
     port: 80,      // 设置端口号，默认为 80
     open: true, //启动后是否自动打开浏览器
-  }
+  },
+  //正则匹配库里面只需要的部分
+  // externals:[
+  //   'echarts',
+  //   /^library\/.+$/,
+  // ],
+  
 };
