@@ -1,7 +1,8 @@
 使用Webpack制作的脚手架，能够实现一键打包js、html代码至dist下的一个html，简化部署流程。
 
-环境需求：nodejs-v22.0.0、vscode
-使用方法：
+环境需求：nodejs-v22.0.0、vscode。
+
+项目使用方法：
 
 1、拉取代码：git clone https://github.com/aceip/toHtml.git
 
