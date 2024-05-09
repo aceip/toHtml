@@ -9,3 +9,5 @@
 3、打包：npm run build
 
 4、运行测试：npm run dev
+
+   // "dev": "npx webpack serve --mode development"
